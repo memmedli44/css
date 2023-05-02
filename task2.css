@@ -1,25 +1,87 @@
+.contanier {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 header {
-  background: rgb(0, 0, 0, 0.8);
+  background-color: #333;
+  color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contanier div,
+.contanier nav {
   display: inline-block;
-  width: 100%;
 }
-header h1 {
-  margin-left: 500px;
-  color: rgba(255, 255, 255, 0.7);
+
+.contanier nav {
+  background-color: #232323;
+  padding: 15px 10px;
+  margin-top: 10px;
 }
-header p {
-  margin-left: 500px;
-  color: rgba(255, 255, 255, 0.7);
-}
-header nav {
-  background-color: rgba(0, 0, 0, 0.9);
-  border: solid rgba(0, 0, 0, 0.9);
-  border-radius: 10px;
-}
+
 header ul li {
   display: inline-block;
-  margin-right: 10px;
 }
-header a {
-  color: darkorange;
+
+header ul li a {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+header nav {
+  float: right;
+}
+
+.square {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin-inline: 10px;
+}
+.square-colored {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.size {
+  background: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  width: 530px;
+  color: #fff;
+}
+
+.size div {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  margin-top: 20px;
+}
+.fotosize {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-inline: 10px;
+}
+.footer > div {
+  display: inline-block;
+  width: 180px;
+  height: 100px;
+  margin-inline: 10px;
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+.footer .centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
