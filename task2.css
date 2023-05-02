@@ -1,0 +1,25 @@
+header {
+  background: rgb(0, 0, 0, 0.8);
+  display: inline-block;
+  width: 100%;
+}
+header h1 {
+  margin-left: 500px;
+  color: rgba(255, 255, 255, 0.7);
+}
+header p {
+  margin-left: 500px;
+  color: rgba(255, 255, 255, 0.7);
+}
+header nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: solid rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header a {
+  color: darkorange;
+}
